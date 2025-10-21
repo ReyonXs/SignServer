@@ -6,7 +6,7 @@ This project can only be used on Linux.
 
 First, go to the official website to download deb file of the QQ, and rename it to `linuxqq.deb`.
 
-I recommend downloading the Linux x64 3.2.19-39038 version. If you want use another version, go to visit [Config section](#config).
+I recommend downloading the Linux x64 3.2.20-40990 version. If you want use another version, go to visit [Config section](#config).
 
 And then:
 
@@ -56,5 +56,5 @@ docker run -d --name my-sign-server -v $HOSTDIR:/app -p 127.0.0.1:8080:8080 sign
 
 Modify the `sign.config.toml` file according to your needs.
 
-If you use other versions of QQ, put `{version}.json` in the same directory. For specific content, refer to `src/appinfo/3.2.19-39038.json`.
+If you use other versions of QQ, put `{version}.json` in the same directory. For specific content, refer to `src/appinfo/3.2.20-40990.json`.
 
